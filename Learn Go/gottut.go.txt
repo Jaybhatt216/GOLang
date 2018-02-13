@@ -1,0 +1,11 @@
+package main //must do this everytime
+
+import "fmt" //have to use double quotes and even on imports you need to do double qoutes, fmt import means format
+
+func main(){
+  fmt.p
+
+} //to create a function in go you do func main() the curl braces {} and the code in there
+
+
+
