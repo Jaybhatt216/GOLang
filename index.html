@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<<head>
+  <<title>
+    Websockets
+  </title>
+</head>
+<<Body>
+  <<h1>Hello websockets</h1>
+</Body>
+
+the javascript do in browser console
+var ws = new WebSocket("ws://localhost3000/v1/ws")
+ws.addEventListener("Message", function(e) {console.log(e);})
+ws.send("foo")
+ws.send("json.string(username:"Jay")")
+var ws = new WebSocket("ws://localhost3000/v3/ws")
+ws.close this will close the WebSocket
